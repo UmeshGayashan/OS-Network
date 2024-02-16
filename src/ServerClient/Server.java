@@ -10,7 +10,7 @@ public class Server {
     static int port = 6600;
     public static void main(String[] args) throws IOException {
         System.out.println("\t\t Simple Socket Server");
-        System.out.println("\t\t=================\n\n");
+        System.out.println("\t\t ====================\n\n");
 
         ServerSocket serverSocket = new ServerSocket(port);
 
